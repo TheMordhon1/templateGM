@@ -94,11 +94,11 @@ a:hover {
   right: 0;
   top: 50%;
   padding: 10px 15px;
-  z-index: 99999999999999;
+  z-index: 99999999;
+  cursor:pointer;
 }
 .pause {
 	margin-left: 0.5em;
-	cursor:pointer;
 }
 
 /*End mp3 */
