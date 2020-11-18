@@ -502,6 +502,7 @@ a:hover {
 /*-- Awards --*/
 
 .awards {
+  margin-top: 3em;
   padding: 200px 0;
   background: url("../images/bg-award.jpg");
   background-repeat: no-repeat;
@@ -1685,7 +1686,41 @@ div#showLess:after {
 /*-- Portfolio --*/
 
 .portfolio {
-  padding-bottom: 100px;
+  padding: 200px 0;
+  position: relative;
+}
+.portfolio::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: var(--textp);
+  position: absolute;
+  bottom: -20px;
+  left: 25%
+}
+.portfolio::before {
+  content: "";
+  width: 25%;
+  height: 2px;
+  background: var(--textp);
+  position: absolute;
+  bottom: -5px;
+  left: 38%
+}
+
+.portfolio h1 {
+  color: var(--texthl);
+  position: relative;
+  margin-bottom: 50px;
+}
+.portfolio h1::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: var(--textp);
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
 }
 
 .portfolio-top {
@@ -2850,7 +2885,6 @@ textarea {
   border: none;
   z-index: 1999999;
   text-indent: 100%;
-  background: url("../images/to-top.png") no-repeat 0px 0px;
 }
 
 /*-- //Go-To-Top-Button --*/
