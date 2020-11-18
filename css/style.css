@@ -3112,6 +3112,10 @@ textarea {
     font-size: 27px;
   }
 
+  .rslides img {
+    width: 300px;
+  }
+
   .caption{
     top: 35%;
   }
@@ -3123,7 +3127,7 @@ textarea {
     padding: 100px 0;
   }
   .services-grid1 p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 25px;
     margin-bottom: 20px;
   }
@@ -3555,9 +3559,7 @@ textarea {
   .video-box {
     top: 0px;
   }
-  .service-info h4 {
-    font-size: 19px;
-  }
+  
   .service-info p {
     font-size: 14px;
   }
@@ -3824,9 +3826,7 @@ textarea {
   .services-grid1 p {
     line-height: 22px;
   }
-  .service-info h4 {
-    font-size: 18px;
-  }
+  
   .service-info p {
     padding-right: 10px;
   }
