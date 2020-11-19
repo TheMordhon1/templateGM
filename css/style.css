@@ -4405,6 +4405,10 @@ textarea {
 }
 
 @media screen and (max-width: 384px) {
+
+  .services .row {
+    max-width: 300px;
+}
   .service-info {
     padding-right: 0;
   }
