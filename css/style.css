@@ -3407,8 +3407,7 @@ textarea {
   
   form {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     flex-direction: column;
     width: 100%;
   }
