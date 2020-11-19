@@ -3220,7 +3220,7 @@ textarea {
     margin-top: 50px;
   }
   .service-info img {
-    width: 75px;
+    width: 50px;
   }
   .newsletter input[type="text"] {
     width: 66%;
@@ -3404,12 +3404,17 @@ textarea {
     font-size: 15px;
     line-height: 25px;
   }
-  .contact-grid-1 {
-    width: 35%;
-    float: left;
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
   }
+
   .contact-grid-2 {
-    width: 65%;
+    width: 100%;
     float: left;
   }
 }
