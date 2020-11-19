@@ -3432,7 +3432,7 @@ textarea {
   .services-grids .video-box {
     position: relative;
     width: 80%;
-left:0px
+    left: 0px;
   }
 
   .service-info {
@@ -3492,7 +3492,7 @@ left:0px
     line-height: 20px;
   }
   .portfolio-top {
-    width: 50%;
+    width: 100%;
     float: left;
   }
   .location-grids {
