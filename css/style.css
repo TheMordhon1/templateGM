@@ -79,6 +79,11 @@ ul {
   padding: 0;
 }
 
+ul li{
+ list-style:none;;
+}
+
+
 label {
   margin: 0;
 }
@@ -138,9 +143,6 @@ font-size: 1.5em;
   margin: auto;
 }
 
-#slider2 {
-  width: 400px;
-}
 
 .rslide li {
   list-style: none;
