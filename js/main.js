@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
           hour = minute * 60,
           day = hour * 24;
   
-    let countdown = "dec 14, 2020 20:30:00",
+    let countdown = "dec 26, 2020 08:30:00",
         countDown = new Date(countdown).getTime(),
         x = setInterval(function() {    
   
