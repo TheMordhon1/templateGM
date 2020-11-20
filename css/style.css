@@ -4,8 +4,8 @@
 :root {
   --bg: #f4f4f4;
   --texthl:#baa67c;
-  --textsubhl:#222;
-  --textp: #444;
+  --textsubhl:#333;
+  --textp: #666;
   --bgbutton: #856e3d;
   --textbutton: #f4f4f4;
   --formbg: #f1f1f1
@@ -113,8 +113,9 @@ a:hover {
   box-shadow: -2px 7px 10px rgba(51, 51, 51, .3);
 }
 
-.song .pause .fa{
-  color: var(--bg);
+
+.fa {
+  color: var(--textbutton);
 }
 .pause {
 	margin-left: 0.5em;

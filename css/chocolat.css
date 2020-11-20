@@ -16,7 +16,7 @@ body{
 }
 #Choco_content{
 	display:none;
-	width:800px;
+	width:600px;
 	height:600px;
 	z-index:1001;
 	position:fixed;
@@ -50,7 +50,7 @@ body{
 }
 #Choco_container_photo{
 	text-align:center;
-	width:800px;
+	width:600px;
 	height:600px;
 	/*background:url(../images/ajax-loader.gif) center center no-repeat;*/
 }
