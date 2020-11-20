@@ -290,7 +290,7 @@ margin: auto;
   outline: none;
   border: none;
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: var(--bgbutton);
   color: var(--textbutton);
   outline: none;
