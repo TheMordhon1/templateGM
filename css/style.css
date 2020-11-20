@@ -1,14 +1,14 @@
 /* -- Font-- */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 /* Color System */
 :root {
-  --bg: #06403E;
-  --texthl:#CC902E;
-  --textsubhl: #DEE4E4;
-  --textp: #DEE4E4;
-  --bgbutton: #CE8E2D;
-  --textbutton: #053C3B;
+  --bg: #f4f4f4;
+  --texthl:#baa67c;
+  --textsubhl:#222;
+  --textp: #444;
+  --bgbutton: #856e3d;
+  --textbutton: #f4f4f4;
+  --formbg: #f1f1f1
 }
 
 /* Color System */
@@ -21,8 +21,10 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background: #06403E;
-  font-family: 'Dancing Script', cursive;
+  background: var(--bg);
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Kaushan Script', cursive;
+  
 }
 
 main {
@@ -51,6 +53,10 @@ a:hover {
   text-decoration: none;
 }
 
+ul li {
+  list-style: none;
+}
+
 
 h1,
 h2,
@@ -61,7 +67,8 @@ h6 {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Kaushan Script', cursive;
 }
 
 p {
@@ -170,22 +177,42 @@ a:hover {
   margin: auto;
 }
 
+.top-left{
+  width: 150px;
+  position: absolute;
+  top: 0;
+
+}
+.middle{
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
 .rslide li {
   list-style: none;
   color: var(--texthl);
   font-weight: bold;
 }
 
-.rslide li img {
+.rslide li .couple {
   border: 10px solid var(--bgbutton);
   width: 300px;
-  margin-left: 80px;
+  display: block;
+  margin: auto;
   margin-top: 2em;
   border-radius: 50%;
 }
+.rslide li .name{
+ width: 300px;
+display: block;
+margin: auto;
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
 .rslide li h3 {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   line-height: 70px;
 }
@@ -240,9 +267,6 @@ a:hover {
 
 @media all and (max-width: 768px) {
  
-  .rslide li img {
-    margin-left: 30px;
-  }
 
   #countdown ul li {
     font-size: 1.125rem;
@@ -341,7 +365,7 @@ a:hover {
 }
 
 .services .row {
-  max-width: 300px;
+  max-width: 400px;
   justify-content: center;
   margin-left: 30px;
 }
@@ -361,7 +385,7 @@ a:hover {
 
 
 .video-box {
-  background: url("../images/bg-award.jpg") center center no-repeat;
+  background: url("../images/gallery/gallery-3.jpg") center center no-repeat;
   background-size: cover;
   z-index: 100;
   border: 7px solid var(--bgbutton);
@@ -992,7 +1016,7 @@ ul.social-icons li a.youtube:hover {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: -1px;
-  color: #1dc8d9;
+  color: var(--texthl);
 }
 
 .modal-body {
@@ -1686,7 +1710,7 @@ div#showLess:after {
 /*-- Portfolio --*/
 
 .portfolio {
-  padding: 200px 0 100px;
+  padding: 50px 0 100px;
   position: relative;
 }
 .portfolio::after {
@@ -2833,7 +2857,7 @@ textarea {
   padding: 10px 15px;
   margin-bottom: 20px;
   outline: none;
-  background-color: var(--textsubhl);
+  background-color: var(--formbg);
   border: none;
   color: #333;
   font-family: "Montserrat", sans-serif;
@@ -2894,7 +2918,7 @@ textarea {
 @media screen and (max-width: 1080px) {
   
   .projects {
-    padding: 100px 0 110px;
+    padding: 50px 0;
   }
   .projects p {
     margin-bottom: 40px;
@@ -3184,11 +3208,11 @@ textarea {
     font-size: 43px;
   }
   .projects-grid1 {
-    width: 60%;
+    width: 100%;
     float: left;
   }
   .projects-grid2 {
-    width: 40%;
+    width: 100%;
     float: left;
   }
   .slider-3 {
@@ -3993,26 +4017,37 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-  .navbar-default {
-    padding: 0;
+  .rslide li .couple {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    width: 70%;
   }
-  .navbar-default .navbar-brand {
-    font-size: 20px;
+  .rslide li .name {
+   margin: auto;
+   display: block;
+   width: 80%;
+   margin-top: 30px;
+   margin-bottom: 30px;
   }
-  .navbar-toggle {
-    padding: 8px;
-  }
-  .caption {
-    top: 38%;
-  }
-  .caption h3 {
-    font-size: 20px;
-    line-height: 35px;
+  .rslide li h3 {
+   font-size: 3.5rem;
   }
 
   #countdown ul li span {
     font-size: 1.45rem;
   }
+
+  .services .row {
+    max-width: 350px;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .service-info h4 {
+   font-size: 25px;
+  } 
+
   .projects,
   .awards,
   .services,
@@ -4140,6 +4175,11 @@ textarea {
 }
 
 @media screen and (max-width: 414px) {
+
+  .rslide li h3 {
+    font-size: 3rem;
+   }
+
   .caption {
     top: 40%;
   }
@@ -4368,6 +4408,10 @@ textarea {
 }
 
 @media screen and (max-width: 384px) {
+
+  .services .row {
+    max-width: 300px;
+}
   .service-info {
     padding-right: 0;
   }
