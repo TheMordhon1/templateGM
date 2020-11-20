@@ -1009,6 +1009,10 @@ ul.social-icons li a.youtube:hover {
   margin-left: 5px;
 }
 
+.modal-header {
+  background: var(--textbutton);
+}
+
 .modal-title {
   font-size: 30px;
   font-weight: 700;
