@@ -27,11 +27,12 @@ jQuery(document).ready(function ($) {
   function togglePlay() {
     if (audio.paused) {
       audio.play();
-      pause.innerHTML = `<i class="fa fa-volume-up"></i>`;
+      pause.innerHTML = `<i class="fa fa-volume-up"></i>`
+      pause.style.color = "#ffffff";
     } else {
       audio.pause();
-      pause.innerHTML = ` <i class="fa fa-volume-mute"></i>`;
-      pause.style.color = " #ffffff";
+      pause.innerHTML = `<i class="fa fa-volume-mute"></i>`;
+      pause.style.color = "#ffffff";
     }
   }
 
