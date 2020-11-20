@@ -4,15 +4,15 @@
 :root {
   --bg: #f4f4f4;
   --texthl:#baa67c;
-  --textsubhl:#333;
-  --textp: #666;
+  --textsubhl:rgb(107, 107, 107);
+  --textp: #888;
   --bgbutton: #856e3d;
   --textbutton: #f4f4f4;
-  --formbg: #f1f1f1
+  --formbg: #d1d1d193;
+  --textform: #333;
 }
 
 /* Color System */
-
 
 html {
   overflow-x: hidden;
@@ -107,65 +107,35 @@ a:hover {
   border-bottom-left-radius: 10px;
   right: 0;
   top: 50%;
-  padding:10px 5px;
+  padding:10px;
   z-index: 99999999;
   cursor:pointer;
   box-shadow: -2px 7px 10px rgba(51, 51, 51, .3);
 }
 
 
-.fa {
-  color: var(--textbutton);
-}
 .pause {
 	margin-left: 0.5em;
 }
 
 /*End mp3 */
 
-/*-- Navbar --*/
 
-.navbar-default {
+/* Ornamen  */
+.top-left{
+  width: 200px;
   position: absolute;
-  z-index: 99999;
-  width: 100%;
-  background-color:var(--bg);
-  border: none;
-  border-radius: 0;
-  margin: 0;
-  padding: 20px 0;
-}
+  top: 0;
 
-.navbar-default .navbar-brand {
-  color: var(--texthl);
-  font-family: "Cinzel Decorative", cursive;
-  font-size: 36px;
-  font-weight: 800;
+}
+.middle{
+  width: 150px;
+  display: block;
+  margin: auto;
 }
 
 
-.navbar-brand:hover {
-  transform: scale(1.03);
-  color: var(--texthl) !important;
-}
-
-.d-flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-/*-- //Navbar --*/
-/* Whatsapp-contact */
-.whatsapp-contact {
-  position: fixed;
-  left: 2em;
-  bottom: 2em;
-  z-index: 1999999999;
-  width: 50px;
-}
-
-/* //Whatsapp-contact */
+/* Copy CSS Code From Here */
 
 /*-- Jumbotron --*/
 
@@ -178,16 +148,8 @@ a:hover {
   margin: auto;
 }
 
-.top-left{
-  width: 150px;
-  position: absolute;
-  top: 0;
-
-}
-.middle{
-  width: 150px;
-  display: block;
-  margin: auto;
+#slider2 {
+  width: 400px;
 }
 
 .rslide li {
@@ -294,7 +256,7 @@ margin: auto;
   outline: none;
   border: none;
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: var(--bgbutton);
   color: var(--textbutton);
   outline: none;
@@ -303,13 +265,18 @@ margin: auto;
 
 
 .projects h1,
+.services h2, .portfolio h1,
+.awards h3, .contact h2  {
+  font-size: 41px;
+  font-weight: 700;
+  margin: 30px 0;
+  color:var(--texthl);
+}
+
+.projects h1,
 .services h2,
 .awards h3 {
   text-align: left;
-  font-size: 41px;
-  font-weight: 700;
-  margin: 50px 0;
-  color:var(--texthl);
 }
 
 .projects h4 {
@@ -328,7 +295,7 @@ margin: auto;
 }
 
 .projects p {
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 30px;
   padding-left: 30px;
   margin-bottom: 50px;
@@ -961,56 +928,9 @@ ul.social-icons li a.youtube:hover {
 
 /*-- Details --*/
 
-.details {
-  padding: 100px 0;
-  background-color: #eaeaea;
-}
 
-.details h3 {
-  text-align: left;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 50px;
-  color: #1dc8d9;
-}
-
-.details-grid {
-  padding: 0 5px;
-}
-
-.details-grid1,
-.details-grid2,
-.details-grid3 {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.details-grid-info p {
-  padding: 20px 40px 20px 0;
-  line-height: 25px;
-  font-size: 13px;
-  color: #777;
-}
-
-.details-grid button.btn {
-  font-weight: 600;
-  color: #1dc8d9;
-  padding: 10px 30px;
-  border: 1px solid #1dc8d9;
-  border-right: none;
-  outline: none;
-  background-color: #fff;
-  border-radius: 0;
-}
-
-.details-grid button.btn:hover {
-  background-color: #1dc8d9;
-  color: #fff;
-}
-
-.details-grid .glyphicon {
-  margin-left: 5px;
+.modal-header {
+  background: var(--textbutton);
 }
 
 .modal-title {
@@ -1032,62 +952,6 @@ ul.social-icons li a.youtube:hover {
 }
 
 /*-- //Details --*/
-
-/*-- Ventures --*/
-
-.ventures {
-  padding: 100px 0 80px;
-}
-
-.ventures h3 {
-  text-align: left;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 50px;
-  color: #1dc8d9;
-}
-
-.ventures-grid-image,
-.ventures-grid-info {
-  height: 185px;
-  margin-bottom: 30px;
-}
-
-.ventures-grid-image {
-  padding: 0;
-}
-
-.ventures-grid3,
-.ventures-grid7 {
-  padding-left: 10px;
-}
-
-.ventures-grid-image img {
-  height: 185px;
-}
-
-/*--w3layouts--*/
-/*--agileits--*/
-.ventures-grid-info {
-  padding: 0 10px;
-  background-color: #f5f5f5;
-}
-
-.ventures-grid-info h4 {
-  font-size: 20px;
-  text-align: left;
-  margin: 20px 0;
-  font-weight: 600;
-  color: #1dc8d9;
-}
-
-.ventures-grid-info p {
-  font-size: 13px;
-  line-height: 25px;
-  color: #777;
-}
-
-/*-- //Ventures --*/
 
 /*-- Team --*/
 
@@ -1711,7 +1575,7 @@ div#showLess:after {
 /*-- Portfolio --*/
 
 .portfolio {
-  padding: 50px 0 100px;
+  padding: 10px 0 100px;
   position: relative;
 }
 .portfolio::after {
@@ -2835,11 +2699,7 @@ form label {
   margin-bottom: .5em;
 }
 
-.contact h2 {
-  font-size: 50px;
-  font-weight: 700;
-  color: var(--texthl);
-}
+
 
 p.contact-p {
   width: 70%;
@@ -2860,7 +2720,7 @@ textarea {
   outline: none;
   background-color: var(--formbg);
   border: none;
-  color: #333;
+  color: var(--textform);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -3678,6 +3538,7 @@ textarea {
   .service-info p {
     font-size: 13px;
     line-height: 23px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   .cuisines-grids {
@@ -4039,6 +3900,10 @@ textarea {
     font-size: 1.45rem;
   }
 
+  .projects h4 {
+    font-size: 1.5rem;
+  }
+
   .services .row {
     max-width: 350px;
     justify-content: center;
@@ -4065,21 +3930,15 @@ textarea {
   .contact {
     padding: 30px 0;
   }
+
+.portfolio h1 {
+  font-size: 27px;
+}
+
   .projects h1,
   .awards h3,
   .services h2,
-  .principles-grids1 h3,
-  .location h3,
-  .principles-grids2 h3,
   .gallery h2,
-  .details h3,
-  .ventures h3,
-  .team h3,
-  .cuisines h2,
-  .specials h3,
-  h3.title,
-  .rooms h2,
-  .reg h2,
   .contact h2 {
     font-size: 27px;
     font-weight: 100;
@@ -4488,30 +4347,7 @@ textarea {
     margin-left: 10px;
     padding: 15px 0;
   }
-  .caption h3 {
-    width: 75%;
-  }
-  .caption h3 {
-    font-size: 18px;
-    line-height: 25px;
-  }
-  .projects h1,
-  .awards h3,
-  .services h2,
-  .location h3,
-  .principles-grids2 h3,
-  .gallery h2,
-  .details h3,
-  .ventures h3,
-  .team h3,
-  .cuisines h2,
-  .specials h3,
-  h3.title,
-  .rooms h2,
-  .reg h2,
-  .contact h2 {
-    font-size: 23px;
-  }
+ 
   .projects h4 {
     font-size: 16px;
   }
