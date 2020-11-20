@@ -24,16 +24,37 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background: #06403E;
   /* font-family: 'Dancing Script', cursive; */
   font-family: 'Cinzel Decorative', cursive;
-  
+  background: url("../images/ornamen/bg.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
 }
+
+
+.body-ornamen-left {
+  position: absolute;
+  bottom: -40px;
+  width: 70px;
+  left: 60px;
+  transform: rotate(-50deg);
+}
+
+.body-ornamen-right {
+  position: absolute;
+  bottom: -40px;
+  width: 70px;
+  right: 60px;
+  transform: rotate(50deg);
+}
+
 
 main {
   max-width: 500px;
   margin: auto;
-  background:var(--bg) ;
+  /* background:var(--bg) ; */
+  background: url("../images/ornamen/bg.jpg") no-repeat;
+  background-size: cover;
   box-shadow: -10px -10px 20px 10px rgba(0, 0, 0, 0.25), 
   20px 20px 20px rgba(0, 0, 0, 0.25);
 }
@@ -79,17 +100,16 @@ ul {
   padding: 0;
 }
 
-ul li{
- list-style:none;;
+ul li {
+  list-style: none;
 }
-
 
 label {
   margin: 0;
 }
 
 img {
-  width: 100%;
+  width: 60%;
 }
 
 a:focus,
@@ -104,7 +124,7 @@ a:hover {
 .song {
 	display: flex;
 	align-items: center;
-font-size: 1.5em;
+	font-size: 1.5em;
   background-color: var(--bgbutton);
   position: fixed;
   border-top-left-radius: 10px;
@@ -122,7 +142,6 @@ font-size: 1.5em;
   width: 50px;
   position: absolute;
   top: 0;
-
 }
 .middle{
   width: 150px;
@@ -152,12 +171,17 @@ font-size: 1.5em;
 
 .rslide li .couple {
   border: 10px solid var(--bgbutton);
-  width: 300px;
+  background: url("../images/gallery/gallery-8.jpg") center;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
   display: block;
   margin: auto;
   margin-top: 2em;
   border-radius: 50%;
+  position: relative;
 }
+
 .rslide li .name{
  width: 300px;
 display: block;
@@ -2837,6 +2861,11 @@ textarea {
   .container {
     width: 100%;
   }
+
+  .couple{
+    position: relative;
+  }
+
 
   .caption {
     left: 2%;
