@@ -1013,7 +1013,7 @@ ul.social-icons li a.youtube:hover {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: -1px;
-  color: #1dc8d9;
+  color: var(--texthl);
 }
 
 .modal-body {
