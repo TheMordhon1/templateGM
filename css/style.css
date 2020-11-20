@@ -4278,31 +4278,13 @@ textarea {
 
   .services .row {
     max-width: 300px;
-}
+  }
   .service-info {
     padding-right: 0;
   }
-  .banner h1 {
-    line-height: 33px;
-  }
-  #loadMore {
-    margin-right: 10px;
-  }
-  li.li2 {
-    margin: 0 22px;
-  }
-  .food input[type="checkbox"] + label {
-    padding-left: 20px;
-    font-size: 12px;
-    font-weight: 100;
-  }
-  .food input[type="checkbox"] + label span:first-child {
-    width: 15px;
-    height: 15px;
-    border: 1px solid #ffffff;
-  }
-  .payment-sendbtns input[type="reset"] {
-    padding: 6px 35px;
+  
+  .rslide li h4 {
+    font-size: 4rem;
   }
 }
 
