@@ -193,7 +193,7 @@ margin: auto;
   font-weight: bold;
   font-size: 4rem;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
 }
 .rslide li h4 {
   font-weight: bold;
@@ -204,6 +204,7 @@ margin: auto;
 .rslide li h5 {
   font-size: 2rem;
 }
+
 
 
 
@@ -308,6 +309,10 @@ margin: auto;
   height: 3px;
   background-color: var(--bgbutton);
   margin: 20px 0;
+}
+
+.projects .rslides img {
+  width: 60%;
 }
 
 .projects p {
