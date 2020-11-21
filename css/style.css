@@ -227,6 +227,7 @@ margin: auto;
   display: flex;
   justify-content: center;
   text-align: center;
+	margin-top:1em;
 }
 #countdown ul li {
   display: flex;
