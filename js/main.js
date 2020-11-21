@@ -28,10 +28,11 @@ jQuery(document).ready(function ($) {
     if (audio.paused) {
       audio.play();
       pause.innerHTML = `<i class="fa fa-volume-up"></i>`;
+      pause.style.color = "#f4f4f4";
     } else {
       audio.pause();
-      pause.innerHTML = ` <i class="fa fa-volume-mute"></i>`;
-      pause.style.color = " #ffffff";
+      pause.innerHTML = `<i class="fa fa-volume-mute"></i>`;
+      pause.style.color = "#f4f4f4";
     }
   }
 
@@ -42,7 +43,7 @@ jQuery(document).ready(function ($) {
           hour = minute * 60,
           day = hour * 24;
   
-    let countdown = "dec 14, 2020 20:30:00",
+    let countdown = "dec 26, 2020 21:30:00",
         countDown = new Date(countdown).getTime(),
         x = setInterval(function() {    
   
