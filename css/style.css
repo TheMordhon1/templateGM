@@ -1,6 +1,12 @@
 /* -- Font-- */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+@font-face {
+  font-family: 'Signatie';
+  src: url("../fonts/Signatie.ttf");
+  font-style: normal;
+}
 /* Color System */
 :root {
   --bg: #06403E;
@@ -145,7 +151,6 @@ a:hover {
   margin: auto;
 }
 
-
 .rslide li {
   list-style: none;
   color: var(--texthl);
@@ -175,9 +180,10 @@ margin: auto;
 }
 .rslide li h4 {
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   line-height: 70px;
+  font-family: 'signatie';
 }
 .rslide li h5 {
   font-size: 4rem;
@@ -4280,7 +4286,7 @@ textarea {
   }
   
   .rslide li h4 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
