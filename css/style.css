@@ -1,16 +1,16 @@
 /* -- Font-- */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
 /* Color System */
 :root {
-  --bg: #f4f4f4;
-  --texthl:#2a81c4;
-  --textsubhl: #646464;
+  --bg: #F6F7F7;
+  --texthl:#617245;
+  --textsubhl: #B1C291;
   --textp: #4D4C4D;
-  --bgbutton: #1D77BC;
+  --bgbutton:#CE8E2D;
   --textbutton: #FEFDFD;
-  --formbg: #cfcfcf;
+  --formbg: #e9e9e9;
   --textform: #333;
 }
 
@@ -25,7 +25,8 @@ body {
   padding: 0;
   margin: 0;
   /* font-family: 'Dancing Script', cursive; */
-  font-family: 'Cinzel Decorative', cursive;
+  /* font-family: 'Cinzel Decorative', cursive; */
+  font-family: 'Libre Baskerville', serif;
   /* background: url("../images/ornamen/bg.jpg") no-repeat; */
   background: var(--bg);
   background-size: cover;
@@ -35,17 +36,66 @@ body {
 
 .body-ornamen-left {
   position: absolute;
-  bottom: 20px;
-  width: 40px;
-  left: -20px;
+  bottom: 0px;
+  width: 67px;
+  left: -100px;
 }
 
 .body-ornamen-right {
   position: absolute;
   bottom: 0px;
-  width: 60px;
-  right: 0px;
+  width: 100px;
+  right: -100px;
   transform: rotate(50deg);
+}
+
+@media (max-width:548px) {
+  .body-ornamen-left {
+    position: absolute;
+    bottom: 0px;
+    width: 80px;
+    left: -80px;
+  }
+  
+  .body-ornamen-right {
+    position: absolute;
+    bottom: 0px;
+    width: 80px;
+    right: -60px;
+    transform: rotate(50deg);
+  }
+}
+@media (max-width:448px) {
+  .body-ornamen-left {
+    position: absolute;
+    bottom: 0px;
+    width: 60px;
+    left: -60px;
+  }
+  
+  .body-ornamen-right {
+    position: absolute;
+    bottom: 0px;
+    width: 60px;
+    right: -60px;
+    transform: rotate(50deg);
+  }
+}
+@media (max-width:408px) {
+  .body-ornamen-left {
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    left: -20px;
+  }
+  
+  .body-ornamen-right {
+    position: absolute;
+    bottom: 0px;
+    width: 60px;
+    right: -20px;
+    transform: rotate(50deg);
+  }
 }
 
 
@@ -84,7 +134,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, 
+.more-btn,
+.portfolio h1 {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -139,8 +191,9 @@ a:hover {
 }
 
 /* Ornamen  */
-.top-left{
-  width: 120px;
+.top{
+  width: 100%;
+  height: 200px;
   position: absolute;
   top: 0;
   left: 0;
@@ -172,25 +225,21 @@ a:hover {
 }
 
 .rslide li .couple {
-  background: url("../images/gallery/Flat_Illustration.png") center;
+  border: 10px solid var(--bgbutton);
+  background: url("../images/gallery/gallery-8.jpg") center;
   width: 250px;
   height: 250px;
   background-size: cover;
   display: block;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 1em;
   border-radius: 50%;
   position: relative;
 }
 
-.rslide li .name{
- width: 300px;
-display: block;
-margin: auto;
- margin-top: 15px;
- margin-bottom: 15px;
-}
+
 .rslide li h3 {
+  margin-top: 3em;
   font-weight: bold;
   font-size: 4rem;
   text-align: center;
@@ -200,7 +249,9 @@ margin: auto;
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
+  font-family: 'Libre Baskerville', serif;
   line-height: 40px;
+  margin: .5em 0 1em;
 }
 .rslide li h5 {
   font-size: 2rem;
@@ -227,7 +278,6 @@ margin: auto;
   display: flex;
   justify-content: center;
   text-align: center;
-	margin-top:1em;
 }
 #countdown ul li {
   display: flex;
@@ -274,6 +324,7 @@ margin: auto;
   color: var(--textbutton);
   outline: none;
   border: none;
+  font-family: 'Cinzel Decorative', cursive;
 }
 .btn-primary:hover, .btn-primary:focus {
   background: var(--bgbutton);
@@ -391,7 +442,7 @@ margin: auto;
 .video-box .play-btn {
   width: 84px;
   height: 84px;
-  background: radial-gradient(var(--bgbutton) 50%, rgba(48, 107, 233, 0.267) 52%);
+  background: radial-gradient(var(--bgbutton) 50%, rgba(223, 203, 92, 0.267) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -3913,12 +3964,7 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-  .rslide li .couple {
-    margin: auto;
-    margin-top: 30px;
-    display: block;
-    width: 70%;
-  }
+  
   .rslide li .name {
    margin: auto;
    display: block;
@@ -3967,7 +4013,9 @@ textarea {
 
 .portfolio h1 {
   font-size: 27px;
+  font-weight: 500;
 }
+  
 
   .projects h1,
   .awards h3,
