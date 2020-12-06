@@ -1,0 +1,50 @@
+@import 'colors';
+@import 'utilities';
+// Content
+@import 'hero';
+@import 'hello';
+@import 'events';
+@import 'location';
+@import 'story';
+@import 'gallery';
+@import 'form';
+@import 'footer';
+
+
+
+@font-face {
+  font-family: "cream";
+  src: url("../assets/fonts/Cream\ Peach.ttf");
+}
+
+
+/* Mp3 */
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  background-color: $color-main;
+  position: fixed;
+  border-radius: 100px;
+  right: 10px;
+  top: 20%;
+  width: 55px;
+  padding: 10px;
+  z-index: 99999999;
+  cursor: pointer;
+  box-shadow: -2px 7px 10px rgba(51, 51, 51, .3);
+}
+
+/*End mp3 */
+/*--------------------------------------------------------------
+  # Stats
+  --------------------------------------------------------------*/
+.stats-row {
+  margin-top: 65px;
+}
+
+
+
+
+

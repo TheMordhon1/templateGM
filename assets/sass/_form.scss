@@ -1,0 +1,37 @@
+@media (min-width: 990px) {
+    form {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+#form {
+    p {
+        text-align: center;
+        margin: 1em auto 3em;
+    }
+
+    .form-control {
+        background: #f1f1f1;
+        border-radius: 15px;
+    }
+
+    .btn-submit {
+        padding: 10px;
+        display: block;
+        background: $color-ternary;
+        font-size: 1.2rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 50px;
+        outline: none;
+        width: 100%;
+        color: $color-secondary;
+        opacity: .8;
+
+        &:hover {
+            opacity: 1;
+        }
+
+    }
+}

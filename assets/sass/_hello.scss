@@ -1,0 +1,43 @@
+.and {
+    font-size: 4rem;
+}
+
+.couple-bride {
+    margin-bottom: 2.5em;
+}
+.couple-groom {
+    margin-top: 2.5em;
+}
+
+@media (min-width:778px) {
+    #hello {
+        .and {
+            position: absolute;
+            top: 20px;
+            right:0px; 
+            font-size: 4rem;
+        }
+
+        .couple-bride {
+            margin-bottom: 0;
+        }
+        .couple-groom {
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .sub-title-name {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 400px) {
+    .sub-title-name {
+        font-size: 1.5rem;
+    }
+
+    .desc {
+        font-size: .9rem;
+    }
+}

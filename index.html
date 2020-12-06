@@ -1,555 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Head -->
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-178551496-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "UA-178551496-2");
-    </script>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>GateMarried | Template</title>
+  <title>GateMarried Template</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
 
-    <!-- Meta-Tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content=""/>
-    <script type="application/x-javascript">
-      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
-    </script>
-    <!-- //Meta-Tags -->
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
 
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
 
-    <!-- favicon -->
-    <link rel="icon" href="images/award-1.png" />
-    
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Bootstrap-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
-    <!-- Index-Page-CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <!-- Animate.CSS -->
-    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
-     <!-- Gallery-Popup-CSS -->
-    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all" />
-     <!-- Video-Popup-CSS -->
-    <link rel="stylesheet" href="css/venobox.css" type="text/css" media="all" />
-    <!-- favicon -->
-    <link rel="icon" href="img/favicon.png" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
 
-    <!-- Fonts -->
-    <!-- Body-Font -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" type="text/css" />
-    <!-- Logo-Font -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel+Decorative:400,900,700" type="text/css" />
-    <!-- Navbar-Font -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/sweetalert2.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
 
-    <!-- Navbar-Font -->
-    <link rel="stylesheet" href="css/all.min.css" type="text/css" />
-    <!-- //Fonts -->
+  <!-- Template Main CSS File -->
+  <link href="css/main.min.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <!-- Body -->
-  <body>
+<body>
 
-    <!--Music Fixed Righ -->
-    <div class="song" onclick="togglePlay()">
-      <div class="title"></div>
-      <div class="pause" ><i class="fa fa-music" style="color: #fff;"></i></div>
-      <div class="player">
-        <audio id="mymusic" class="audio" src="https://www.dropbox.com/s/ioi66ktnjxibqa5/Ed%20Sheran%20-%20Perfect.mpeg?raw=1" autoplay type="audio" loop=""></audio>
-      </div>
-
+ <!-- ======= Music Section ======= -->
+  <div class="song" onclick="togglePlay()">
+    <div class="title"></div>
+    <div class="pause" ><i class="fa fa-music" style="color: #fff;"></i></div>
+    <div class="player">
+      <audio id="mymusic" class="audio" src="https://www.dropbox.com/s/0sck90l25kogpbw/Christina%20Perry%20-%20Thousand%20Years.mp3?raw=1"  type="audio" loop=""></audio>
     </div>
-    <!-- End_Music -->
 
-    <!-- Header -->
-    <div class="header agileits" id="home">
-      <!-- Navbar -->
-      <nav class="navbar navbar-default w3l aits wow bounceInDown agileits">
-        <div class="container d-flex">
-          <div class="navbar-header agileits">
-            <a class="navbar-brand agileits" href="index.html" style="justify-content: flex-start;">Don & Dal Mi</a>
-          </div>
+  </div>
+  <!-- ======= Music Section ======= -->
 
-          <!-- <a href="#" class="btn btn-primary">SHOW MAP</a> -->
-      </nav>
-      <!-- //Navbar -->
+  <!-- ======= Hero Section ======= -->
+  <section class="hero">
+    <div class="container text-center">
 
-      <!-- fixed Whatsapp contact -->
-      <a href="" class="whatsapp-contact"
-        ><img src="./images/whatsapp.svg" alt=""
-      /></a>
-      <!-- //fixed Whatsapp contact -->
+      <div class="col-md-12">
+        <p class="">
+          We Are Getting Married
+        </p>
 
-      <!-- Jumbotron -->
-      <div class="slider agileits">
-        <div class="slider-1 agileits">
-          <ul class="rslides agileits" id="slider1">
-            <li>
-              <img src="images/slide-1.jpg" alt="Agileits " />
-              <div class="layer agileits"></div>
-              <div class="caption agileits">
-                <h3>Welcome To <span>Our Wedding</span></h3>
-                <h3><span>Nam O-San </span> &  Dal Mi</h3>
-                <div id="countdown">
-                  <ul>
-                    <li><span id="days"></span>days</li>
-                    <li><span id="hours"></span>Hours</li>
-                    <li><span id="minutes"></span>Minutes</li>
-                    <li><span id="seconds"></span>Seconds</li>
-                  </ul>
-                </div>
+        <h1 class="name">
+          Hanna & Denis
+        </h1>
 
-                <!-- Message -->
-                <div class="message">
-                  <div id="content">
-                    <span class="emoji">🥳</span>
-                    <span class="emoji">🎉</span>
-                    <span class="emoji">🎂</span>
-                  </div>
-                </div>
-              </div>  
-            </li>
+        <p class="date-text">
+          11 Januari 2021
+        </p>
+
+        <div id="countdown">
+          <ul>
+            <li><span id="days">00</span>days</li>
+            <li><span id="hours">00</span>Hours</li>
+            <li><span id="minutes">00</span>Minutes</li>
+            <li><span id="seconds">00</span>Seconds</li>
           </ul>
         </div>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-    <!-- //Header -->
 
-    <!-- Couple -->
-    <div class="projects agileits">
-      <div class="container">
-        <div
-          class="col-md-8 col-sm-8 projects-grid agileits projects-grid1 wow slideInLeft"
-        >
-          <!-- Slider2 -->
-          <div class="slider-2 agileits">
-            <ul class="rslides agileits" id="slider2">
-              <li>
-                <img src="images/couple.png" alt="Agileits " />
-              </li>
-              <!----> 
-            </ul>
-          </div>
-          <!-- //Slider2 -->
-        </div>
+        <!-- Message -->
+        <div class="message">
+        </div> 
 
-        <div
-          class="col-md-4 col-sm-4 projects-grid agileits projects-grid2 wow slideInRight"
-        >
-          <h1>Calon Mempelai</h1>
-          <h4>Nama Mempelai Pria</h4>
-          <!-- <h4>Groom</h4> -->
-          <div class="h4-underline agileits wow slideInLeft"></div>
-          <p>
-            Keluarga <br> Bpk.Fulan <br>& Ibu Fulani
-          </p>
-
-          <h4>Nama Mempelai Wanita</h4>
-          <!-- <h4>Bride</h4> -->
-          <div class="h4-underline agileits wow slideInLeft"></div>
-          <p>
-            Keluarga <br> Bpk.Fulan <br>& Ibu Fulani
-          </p>
-          <button
-                class="btn btn-primary wow agileits fadeInLeft"
-                data-toggle="modal"
-                data-target="#myModal3"
-              >
-                See Our Story
-          </button>
-          <div class="clearfix"></div>
-        </div>
+        <a class="btn btn-full scrollto"  target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTI5bzM2YjBxNW5kMDJzNTZtazdpajdqc2tfMjAyMDEyMjVUMDEwMDAwWiBnYXRlbWFycmllZEBt&tmsrc=gatemarried%40gmail.com&scp=ALL">Save The Date</a>
       </div>
     </div>
 
-    <!-- Modal Pop Up -->
-
-    <div class="modal fade details-modal agileits" id="myModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg agileits">
-            <div class="modal-content agileits">
-              <div class="modal-header agileits">
-                <button type="button" class="close agileits" data-dismiss="modal"   aria-hidden="true" > &times;
-                </button>
-                <h4 class="modal-title agileits">Our Love Story</h4>
-              </div>
-
-              <div class="modal-body agileits">
-                <img src="images/project-7.jpg" alt="Agileits " />
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old. Richard
-                    McClintock, a Latin professor at Hampden-Sydney College in
-                    Virginia.
-                </p>
-                <img src="images/project-7.jpg" alt="Agileits " />
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old. Richard
-                    McClintock, a Latin professor at Hampden-Sydney College in
-                    Virginia.
-                </p>
-                <img src="images/project-7.jpg" alt="Agileits " />
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old. Richard
-                    McClintock, a Latin professor at Hampden-Sydney College in
-                    Virginia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script>
-          $("#myModal").modal("");
-        </script>
-   <!-- //Projects -->
-
-   <!-- Gallery -->
-   <div class="portfolio agileits">
-    <div class="ga-top agileits">
-      <div class="col-md-3 col-sm-3 agileits portfolio-top">
-        <div class="portfolio-item agileits wow zoomIn">
-          <a class="example-image-link agileits" href="images/project-1.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-1.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-
-        <div class="portfolio-item wow agileits zoomIn">
-          <a class="example-image-link agileits" href="images/project-2.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-2.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-
-      <div class="col-md-3 col-sm-3 agileits portfolio-top">
-        <div class="portfolio-item wow agileits zoomIn">
-          <a class="example-image-link agileits" href="images/project-3.jpg" data-lightbox="example-set" data-title="">
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-3.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-
-        <div class="portfolio-item agileits wow zoomIn">
-          <a class="example-image-link agileits" href="images/project-4.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-4.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-
-        <div class="portfolio-item wow agileits zoomIn">
-          <a class="example-image-link agileits" href="images/project-5.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-5.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-
-      <div class="col-md-3 col-sm-3 agileits portfolio-top">
-        <div class="portfolio-item agileits wow zoomIn">
-          <a class="example-image-link agileits" href="images/project-6.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-6.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-
-        <div class="portfolio-item agileits wow zoomIn">
-          <a class="example-image-link agileits" href="images/project-7.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-7.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-
-      <div class="col-md-3 col-sm-3 agileits portfolio-top">
-        <div class="portfolio-item wow agileits zoomIn">
-          <a class="example-image-link agileits" href="images/project-8.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-8.jpg" alt="Agileits " />
-                <figcaption>Hello</figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-
-        <div class="portfolio-item wow agileits zoomIn">
-          <a class="example-image-link agileits" href="images/project-9.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-9.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-
-        <div class="portfolio-item wow agileits zoomIn">
-          <a class="example-image-link agileits" href="images/project-10.jpg" data-lightbox="example-set" data-title="" >
-            <div class="grid agileits">
-              <figure class="effect-apollo agileits">
-                <img src="images/gallery-10.jpg" alt="Agileits " />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-          </a>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-
-      <div class="clearfix"></div>
-    </div>
-  </div>
-  <!-- //Gallery -->
-
-    <!-- Awards -->
-    <div class="awards agileits">
-
-      <div class="awards-grids container">
-        
-        <div class="col-md-12 col-sm-12 content agileits wow fadeInUp">
-          <img class="wow slideInLeft agileits img-quran" src="images/quran.svg" alt="Agileits"width="100"/>
-          <h4 class="center-block">QS.Ar-Rum Ayat 21</h4>
-          <div class="h4-underline wow agileits slideInLeft"></div>
-          <p class="text-center">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."</p>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-    <!-- //Awards -->
-
-    <!-- Services -->
-    <div class="services agileits">
-      <div class="container">
-        <div class="services-grids agileits">
-          <div class="col-md-6 col-sm-6 services-grid agileits services-grid1 wow slideInLeft">
-            <h2>D-Day</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, sunt in culpa qui officia deserunt mollit
-              anim id est laborum. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-          </div>
-
-          <!-- <div
-            class="col-md-6 col-sm-6 services-grid agileits services-grid2 wow slideInRight"
-          >
-            <img src="images/services.jpg" alt="Agileits " />
-          </div> -->
-          <div class="col-md-6 col-sm-6 video-box services-grid agileits services-grid2 wow slideInRight">
-            <a href="https://www.youtube.com/watch?v=ZjXK-6x-8Nc" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-
-        <div class="service-info-grids agileits">
-          <div
-            class="col-md-4 col-sm-4 service-info agileits service-info1 wow fadeInUp"
-          >
-            <img src="images/Calendar.svg" alt="Agileits " />
-            <h4>Day</h4>
-            <div class="h4-underline wow agileits slideInLeft"></div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
+  </section>
   
+  <!-- End Hero -->
+
+
+  <main id="main">
+
+    <!-- ======= Hello Section ======= -->
+    <section class="hello" id="hello">
+
+      <div class="container text-center">
+        <h2 class="uniq-font sub-title"> Hello !</h2>
+        <div class="row justify-content-center">
+          <p class="desc mt-4 mb-4 container">
+            Dengan tidak mengurangi rasa hormat dan dengan memohon
+            rahmat dan ridho Allah AWT, kami bermaksud menyelenggarakan
+            pernikahan kami
+          </p>
+        </div>
+        <div class="row stats-row justify-content-center">
+          <div class="stats-col text-center col-md-5 col-sm-12">
+            <div class="couple-bride">
+              <img src="./assets/img/bride.png" alt="" width="200">
+            </div>
+            <h2 class="uniq-font sub-title-name mt-5" >Hanna Pratiwi A. Md. Kep</h2>
+            <p class="desc">Putri Dari Bapak Hendra Mulyadi & Ibu Siti Fauziah</p>
           </div>
-          <div
-            class="col-md-4 col-sm-4 agileits service-info service-info2 wow fadeInUp"
-          >
-            <img src="images/time.svg" alt="Agileits " />
-            <h4>Time</h4>
-            <div class="h4-underline wow agileits slideInLeft"></div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
-    
+
+          <div class="text-center col-md-1  col-sm-12 position-relative">          
+              <span class="and uniq-font">&</span>
           </div>
-          <div
-            class="col-md-4 col-sm-4 service-info service-info3 agileits wow fadeInUp"
-          >
-            <img src="images/location.svg" alt="Agileits " />
-            <h4>Ceremonial Place</h4>
-            <div class="h4-underline wow slideInLeft agileits"></div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
-            <a class="wow slideInLeft btnmap" href="https://www.google.com/maps/place/Allianz+Arena/@48.2187676,11.6225668,17z/data=!3m1!4b1!4m5!3m4!1s0x479e7385128a251f:0xed4d60428e32c423!8m2!3d48.218764!4d11.6247555"
-             target="_blank" >Show Map
-              <span
-                class="glyphicon glyphicon-arrow-right"
-                aria-hidden="true"
-              ></span
-            ></a>
+
+          <div class="stats-col text-center col-md-5 col-sm-12">
+            <div class="couple-groom">
+              <img src="./assets/img/groom.png" alt="" width="200">
+              <h2 class="uniq-font sub-title-name mt-5" >Denis Mada Pidi S. E</h2>
+              <p class="desc">Putra Dari Bapak Ari Wibowo & Ibu Hernawati</p>
+            </div>
           </div>
-          <div class="clearfix"></div>
+
         </div>
       </div>
-    </div>
-    <!-- //Services -->
+
+    </section><!-- End About Section -->
 
 
-    <!-- Footer -->
-    <div class="footer agileits">
+    <!-- ======= Events Section ======= -->
+    <section class="events" id="events">
+
       <div class="container">
-        
+        <h2 class="text-center uniq-font sub-title text-white mb-5">
+          Wedding Events
+        </h2>
 
-          <!-- Contact -->
-          <div class="contact agileits">
-            <div class="container">
-              <h2 class="wow agileits slideInLeft">Our Guest</h2>
-              <p class="contact-p wow agileits slideInLeft">
-                Doa atau harapan anda untuk kami
+        <div class="row justify-content-between">
+          <div class="feature-col col-lg-5 col-xs-12">
+            <div class="card text-center p-4">
+              <div class="top-grid">
+                <h4>Resepsi</h4>
+              </div>
+              <div class="left-grid">
+                <i class="far fa-clock fa-3x"></i>
+                <p>08.30 - 10.00</p>
+                <div class="vertical-line"></div>
+              </div>
+              <div class="right-grid">
+                <i class="far fa-calendar fa-3x"></i>
+                <p>11 Januari 2021</p>
+              </div>
+              <div class="bottom-grid">
+                <h3>Masjid Harakatul Jannah</h3>
+                <p>Jl. Raya Puncak KM. 71, Gadog, Ciawi Bogor, Sukamahi, Megamendung, Sukamahi, Kec. Megamendung, Bogor, Jawa Barat </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-col col-lg-5 col-xs-12">
+            <div class="card text-center p-4">
+              <div class="top-grid">
+                <h4>Akad</h4>
+              </div>
+              <div class="left-grid">
+                <i class="far fa-clock fa-3x"></i>
+                <p>08.30 - 10.00</p>
+                <div class="vertical-line"></div>
+              </div>
+              <div class="right-grid">
+                <i class="far fa-calendar fa-3x"></i>
+                <p>11 Januari 2021</p>
+              </div>
+              <div class="bottom-grid">
+                <h3>Masjid Harakatul Jannah</h3>
+                <p>JJl. Raya Puncak KM. 71, Gadog, Ciawi Bogor, Sukamahi, Megamendung, Sukamahi, Kec. Megamendung, Bogor, Jawa Barat </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+          <div class="row justify-content-center mt-5">
+            <p class="desc mt-4 text-center desc-quran container">
+              " Dan diantara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istriistri dari jenismu sendiri, supaya kamu cenderung dan merasa tentram kepadanya,
+              dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang
+              demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir. "
+            </p>
+
+            <p class="desc text-center text-white"><b> Q.S Ar-Rum : 21</b></p>
+          </div>
+
+
+      </div>
+
+    </section><!-- End events Section -->
+
+    
+
+    <!-- ======= Location Section ======= -->
+    <section class="location" id="location">
+
+      <div class="container text-center">
+        <p class="main-color">
+          This is How You To
+        </p>
+
+        <h1 class="name uniq-font sub-title">
+          Find Us
+        </h1>
+
+      </div>
+      <div class="container text-center mt-5">
+        <a href="https://www.google.com/maps/place/Masjid+Harakatul+Jannah/@-6.6557148,106.8577058,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69c8f736671f7b:0x573f5175f99a874a!8m2!3d-6.6557148!4d106.8598998?hl=en-US"
+        target="_blank" class="btnmaps">Get The Direction</a>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center maps-section mt-3">
+          <iframe frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJex9nNvfIaS4RSoea-XVRP1c&key=AIzaSyD90vY0e4QjO7WN2aJibvcDMjZamg6rtBY" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section><!-- End Google Maps Section -->
+
+    <!-- ======= Their Story Section ======= -->
+    <section class="story" id="story">
+
+      <div class="timeline-container" id="timeline-1">
+        <div class="timeline-header">
+          <h3 class="timeline-header__subtitle">Let Us Tell You</h3>
+          <h2 class="timeline-header__title uniq-font sub-title">Our Story</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item" data-text="2012">
+            <div class="timeline__content"><img class="timeline__img" src="https://www.dropbox.com/s/h4us258nyozuxuk/gallery-5%20%281%29.jpg?raw=1"/>
+              <h2 class="timeline__content-title">PERTAMA BERTEMU</h2>
+              <p class="timeline__content-desc">Kala itu aku berkenalan dengan tiga pemuda yang ternyata salah satu di antara mereka menyimpan rasa cinta padaku pada pandangan pertama. Tapi Tuhan punya rahasia. Sungguh tiada kusangka bahwa pada akhirnya justru sahabatnya yang kini menjadi teman hidupku di dunia. </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-text="2013">
+            <div class="timeline__content"><img class="timeline__img" src="https://www.dropbox.com/s/52gu2lnfhwgvbwg/gallery-4%20%281%29.jpg?raw=1"/>
+              <h2 class="timeline__content-title">MULAI ADA RASA</h2>
+              <p class="timeline__content-desc">Malam itu juga pertama kalinya aku mengirim pesan singkat terlebih dahulu padanya. Beberapa menit kemudian ponselku berdering. Yes, dia membalas SMS-ku. Entah mengapa aku merasa begitu bahagia. Sungguh Allah Maha Kuasa membolak-balikkan hati manusia. </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-text="2019">
+            <div class="timeline__content"><img class="timeline__img" src="https://www.dropbox.com/s/bhfzl94m7q9nf2f/bg-award.jpg?raw=1"/>
+              <h2 class="timeline__content-title">CINCIN</h2>
+              <p class="timeline__content-desc">Singkat cerita, kedekatan kian terasa. Setiap hari kami tidak pernah absen bertukar cerita. Hingga pada suatu ketika kami memutuskan untuk menjalin hubungan asmara. Namun, seperti pasangan lain pada umumnya, tentu perjalanan cinta ini diwarnai dengan suka dan duka. Terlebih lagi, aku dan dia menjalani masa pacaran tujuh tahun lamanya. Bukan waktu yang singkat jika dibayangkan, namun tidak pula terasa lama jika keduanya saling menguatkan dan menjunjung tinggi nilai kesetiaan. </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-text="2021">
+            <div class="timeline__content"><img class="timeline__img" src="https://www.dropbox.com/s/ftagfy1nclrhazs/gallery-1%20%281%29.jpg?raw=1"/>
+              <h2 class="timeline__content-title">AKAD</h2>
+              <p class="timeline__content-desc"> Hari yang dinanti pun tiba. Aku pulang ke kotaku dan bekerja di salah satu perusahaan telekomunikasi yang sudah lama aku idamkan. Kala itu, kami berdua bisa dibilang sama-sama cukup mapan dari segi finansial. Memasuki tahun keenam, menurutku wajar kiranya jika aku dan dia ingin segera melangkah kejenjang pernikahan. Namun, lagi-lagi kami harus melewati sebuah ujian dalam hubungan percintaan.
+              </p>
+              <p class="timeline__content-desc"> Kedua orangtuanya belum menyetujui rencana pernikahan kami dengan alasan ingin anak perempuannya yang terlebih dahulu menikah. Aku mencoba untuk memahami keputusan orangtuanya, karena bagaimanapun juga kita harus menghargai nilai-nilai yang diyakini oleh orang lain. Positive thinking saja, mungkin ini memang belum saatnya.
+              </p>
+              <p class="timeline__content-desc">  Semakin lama semakin banyak pula yang bertanya perihal kapan aku dihalalkan. Terkadang aku merasa kewalahan menghadapi setiap pertanyaan. Hingga pada akhirnya kesabaranku berujung kebahagiaan dan pertanyaan perihal kapan aku dihalalkan pun terjawab dengan undangan pernikahan. Finally, memasuki tahun ketujuh kedua orangtuanya datang untuk melamarku. Setelah melewati tujuh tahun yang indah, kami berdua ditakdirkan menikah. Penantian panjang berakhir sudah.
+              </p>
+              <p class="timeline__content-desc">Begitulah perjalanan cinta antara dua insan. Susah senang pastilah datang. Namun apapun yang sedang dihadapi, yakinlah bahwa ini adalah bagian dari takdir yang harus dilalui.
+
+                Hidup apa adanya. Berusaha semampunya. Bersedih sebentar saja. Bersyukur sebanyak-banyaknya.
               </p>
 
-                <div
-                  class="col-md-12 col-sm-12 contact-grid contact-grid-2 wow slideInLeft"
-                >
-                  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf91EPABhnoVbPd7uoRllxssS8iHD_LA7nEWkfsLhHfyKJQyw/formResponse" target="_blank" method="POST">
-                    <div class="form-group">
-                      <label for="">Nama</label>
-                      <input type="text" class="text wow agileits slideInLeft" name="entry.275078646" placeholder="Nama" required="" />
-                    </div>
-
-                    <div class="form-group">
-                      <label for="">Pesan</label>
-                      <textarea name="entry.758971814" class="wow agileits slideInLeft" placeholder="Isi pesan dan harapan kalian untuk kami disini" required=""></textarea>
-                    </div>
-                    <input type="submit" class="more_btn wow agileits slideInLeft fa-align-center" value="Kirim" />
-                  </form>
-                </div>
-                <div class="clearfix"></div>
             </div>
           </div>
         </div>
-        <!-- //Contact -->
+      </div>
+    </section>
+    <!-- Story Section -->
 
-       
-        <!-- Footer -->
-        <div class="row footer-grids agileits copyright wow fadeInUp text-center">
-          <div class="copyright text-center">&copy; <script>document.write(new Date().getFullYear());</script> All rights reserved <a href="https://gatemarried.com" target="_blank"> @GateMarried</a>
-          </div>
-        </div>
+    <!-- ======= Gallery Section ======= -->
+    <section class="portfolio" id="portfolio">
+
+      <div class="container text-center">
+        <p class="main-color">
+          This is Our Happiness
+        </p>
+
+        <h1 class="name uniq-font sub-title">
+          Photo & Video Gallery
+        </h1>
 
       </div>
-    <!-- //Footer -->
 
-    <a href="#" id="toTop" class="agileits" style="display: block">
-      <span id="toTopHover" style="opacity: 0"> </span
-    ></a>
+      <div class="portfolio-grid container">
+        <div class="grid">
+          <div class="grid1">
+            <div class="card card-block">
+              <a href="assets/img/gallery/grid1.png" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/gallery/grid1.png">
+              </a>
+            </div>
+          </div>
 
-    <!-- Custom-JavaScript-File-Links -->
+          <div class="grid2">
+              <a href="https://www.youtube.com/watch?v=ZjXK-6x-8Nc" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
+              </a>
+          </div>
 
-    <!-- Default-JavaScript -->
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <!-- Bootstrap-JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/all.min.js"></script>
-    <script type="text/javascript" src="js/venobox.min.js"></script>
+          <div class="grid3">
+            <div class="card card-block">
+              <a href="assets/img/gallery/grid3.png" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/gallery/grid3.png">
+              </a>
+            </div>
+          </div>
 
-    <!-- Animate.CSS-JavaScript -->
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-    <!-- //Animate.CSS-JavaScript -->
+          <div class="grid4">
+            <div class="card card-block">
+              <a href="assets/img/gallery/grid4.png" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/gallery/grid4.png">
+              </a>
+            </div>
+          </div>
 
-    <!-- Portfolio-Popup-Box-JavaScript -->
-    <script src="js/modernizr.custom.97074.js"></script>
-    <script src="js/jquery.chocolat.js"></script>
-    <script src="js/main.js"></script>
-    <script type="text/javascript">
-      $(function () {
-        $(".portfolio-item a").Chocolat();
-      });
+          <div class="grid5">
+            <div class="card card-block">
+              <a href="assets/img/gallery/grid5.png" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/gallery/grid5.png">
+              </a>
+            </div>
+          </div>
 
-    // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
-      $('.venobox').venobox();
-    });
-    </script>
-    <!-- //Portfolio-Popup-Box-JavaScript -->
+          <div class="grid6">
+            <div class="card card-block">
+              <a href="assets/img/gallery/grid6.png" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/gallery/grid6.png">
+              </a>
+            </div>
+          </div>
 
-    <!-- Smooth-Scrolling-JavaScript -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
+          <div class="grid7">
+            <div class="card card-block">
+              <a href="assets/img/gallery/gird7.png" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/gallery/gird7.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
 
-    <script type="text/javascript">
-    $(function () {
-            $("#slider1, #slider2, #slider3, #slider4").responsiveSlides({
-              auto: true,
-              nav: true,
-              speed: 1500,
-              namespace: "callbacks",
-              pager: true,
-            });
-          });
+    
+    <!-- ======= Form Section ======= -->
+    <section id="form">
+      <div class="container">
+        <div class=" text-center">
+          
+          <h1 class="name uniq-font sub-title">
+            Attendance
+          </h1>
 
+          <p class="main-color text-center">
+            Send your best wishes for Us
+            and Make sure you are there
+          </p>
+  
+        </div>
 
-      $(document).ready(function () {
-        var defaults = {
-          containerID: "toTop", // fading element id
-          containerHoverID: "toTopHover", // fading element hover id
-          scrollSpeed: 100,
-          easingType: "linear",
-        };
-        $().UItoTop({ easingType: "easeOutQuart" });
-      });
-    </script>
-  </body>
-  <!-- //Body -->
+        <div class="row justify-content-center">
+
+          <div class="col-lg-12 col-md-8">
+            <div class="form">
+              <form action="" target="_blank" method="POST" name="google-sheet"">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Nama" placeholder="Nama anda" required="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Konfirmasi Kehadiran" placeholder="Pilih salah satu : Hadir, Belum Pasti Hadir, Maaf Tidak Bisa hadir" required=""/>
+                </div>
+                <div class="form-group">
+                  <input type="number" class="form-control" name="Jumlah Massa" placeholder="isi dengan angka" required=""/>
+                </div>
+                <div class="form-group">
+                  <textarea name="Pesan/Harapan" class="form-control" placeholder="Isi harapan dan doa anda disini" required="" ></textarea>
+                </div>
+                
+                <input type="submit" class="btn-submit" value="Confirm" name="submit" id="success" />
+                 
+              </form>
+              <!-- Connecting to Google Spread Sheet -->
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycby081pBJq9JrkG5DKX4yQclDNx8Wi2T4lw8KhwD4Oir0Q4Ua8Xr/exec'
+                const form = document.forms['google-sheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => Swal.fire({
+                        title: 'Pesan Anda Berhasil Dikirim',
+                        text: 'Terimakasih, Semoga harimu menyenangkan',
+                        icon: 'success',
+                        confirmButtonText: 'Selesai'
+                      }))
+                    .catch(error => Swal.fire({
+                        title: 'Gagal',
+                        text: 'Mohon, Input dengan benar',
+                        icon: 'error',
+                      }))
+                })
+              </script>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+
+            <h4>Thank You &hearts;</h4>
+            <h3 class="mb-4">Hanna & Dennis</h3>
+
+            <p>Hanna & Denis Invitation By <a href="https://gatemarried.com">Gatemarried</a></p>
+
+            <div class="social-link d-flex justify-content-between align-items-center m-2">
+              <a href="https://gatemarried.com/"><i class="fa fa-globe text-white"></i> www.gatemarried.com</a>
+              <a href="https://gatemarried.com/"><i class="fab fa-instagram text-white"></i> @gatemarriedofficial</a>
+            </div>
+           <p class="p-4"> &copy; <script>document.write(new Date().getFullYear());</script></p>
+          </div>
+        </div>
+      </div>
+  </footer><!-- End Footer -->
+
+  <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/tether/js/tether.min.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/lockfixed/jquery.lockfixed.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/superfish/superfish.min.js"></script>
+  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+  <script src="assets/js/sweetalert2.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
